@@ -1,0 +1,388 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+GNUmakefile:18: ../../../../config/binmake.gmk: No such file or directory
+make: *** No rule to make target '../../../../config/binmake.gmk'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Aug  1 13:52:22 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+G4ABLADATA = /home/pietro/work/software/geant4_data/G4ABLA3.1
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# environment
+DESKTOP_SESSION = cinnamon
+# environment
+JUPYTER_PATH = /home/pietro/work/software/root-6.26.04/etc/notebook
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /home/pietro/.Xauthority
+# environment
+GDMSESSION = cinnamon
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/pietro/work/luxe/FrascatiTestbeam
+# makefile
+SHELL = /bin/sh
+# environment
+GDM_LANG = en_GB
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-cinnamon:/etc/xdg
+# environment
+GTK_OVERLAY_SCROLLING = 1
+# makefile (from 'GNUmakefile', line 1)
+MAKEFILE_LIST :=  GNUmakefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/cinnamon.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/cinnamon:/usr/share/gnome:/home/pietro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+# environment
+ROOTSYS = /home/pietro/work/software/root-6.26.04
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+G4PIIDATA = /home/pietro/work/software/geant4_data/G4PII1.3
+# environment
+CLUTTER_IM_MODULE = ibus
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = en_GB.UTF-8
+# environment
+VSCODE_CWD = /home/pietro
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/pietro/bin:/home/pietro/work/software/allpix-squared-v2.2-stable/bin:/home/pietro/work/software/geant4-v11.0.0/bin:/home/pietro/work/software/root-6.26.04/bin:/home/pietro/work/software/Qt/5.15.2/gcc_64/bin:/home/pietro/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'GNUmakefile', line 10)
+G4INSTALL = ../../../..
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+JUPYTER_CONFIG_DIR = /home/pietro/work/software/root-6.26.04/etc/notebook
+# environment
+SESSION_MANAGER = local/pietro-N552VW:@/tmp/.ICE-unix/1383,unix/pietro-N552VW:/tmp/.ICE-unix/1383
+# environment
+G4INCLDATA = /home/pietro/work/software/geant4_data/G4INCL1.0
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'GNUmakefile', line 7)
+G4EXLIB := true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /home/pietro/work/software/root-6.26.04
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/pietro
+# environment
+LS_COLORS = 
+# environment
+SHLIB_PATH = /home/pietro/work/software/root-6.26.04/lib
+# environment
+XDG_SESSION_DESKTOP = cinnamon
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3061
+# environment
+CLING_STANDARD_PCH = none
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+G4PARTICLEXSDATA = /home/pietro/work/software/geant4_data/G4PARTICLEXS4.0
+# environment
+GTK_IM_MODULE = ibus
+# environment
+PWD = /home/pietro/work/luxe/FrascatiTestbeam
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# default
+.LOADED := 
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 1458
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+MANPATH = /home/pietro/work/software/root-6.26.04/man:/usr/local/man:/usr/local/share/man:/usr/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/pietro
+# environment
+LD_LIBRARY_PATH = /home/pietro/work/software/allpix-squared-v2.2-stable/lib:/home/pietro/work/software/geant4-v11.0.0/lib:/home/pietro/work/software/root-6.26.04/lib:/home/pietro/work/software/Qt/5.15.2/gcc_64/lib:/usr/lib/x86_64-linux-gnu
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/pietro/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = pietro
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+MATHEMATICA_HOME = /usr/local/Wolfram/Mathematica/13.0
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.2.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 7
+# environment
+LC_TIME = en_GB.UTF-8
+# environment
+G4NEUTRONHPDATA = /home/pietro/work/software/geant4_data/G4NDL4.6
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+LIBPATH = /home/pietro/work/software/root-6.26.04/lib
+# environment
+XDG_SESSION_ID = c2
+# environment
+USER = pietro
+# environment
+LC_MONETARY = en_GB.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = X-Cinnamon
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_GB.UTF-8
+# environment
+G4LEVELGAMMADATA = /home/pietro/work/software/geant4_data/PhotonEvaporation5.7
+# default
+MAKE_COMMAND := make
+# environment
+G4SAIDXSDATA = /home/pietro/work/software/geant4_data/G4SAIDDATA2.0
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_GB
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-65fe02d5-1.69.2-main.sock
+# environment
+PYTHONPATH = /home/pietro/work/software/root-6.26.04/lib
+# makefile
+MAKEFLAGS = prR
+# makefile (from 'GNUmakefile', line 5)
+name := TestEm4
+# environment
+MFLAGS = -prR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_GB.UTF-8
+# default
+SUFFIXES := 
+# environment
+CINNAMON_VERSION = 5.2.7
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/cinnamon.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = en_GB.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = en_GB.UTF-8
+# environment
+G4REALSURFACEDATA = /home/pietro/work/software/geant4_data/RealSurface2.2
+# environment
+LC_ALL = C
+# environment
+QT4_IM_MODULE = ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# environment
+G4RADIOACTIVEDATA = /home/pietro/work/software/geant4_data/RadioactiveDecay5.6
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = en_GB.UTF-8
+# environment
+G4LEDATA = /home/pietro/work/software/geant4_data/G4EMLOW8.0
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = en_GB.UTF-8
+# environment
+LANG = C
+# makefile (from 'GNUmakefile', line 6)
+G4TARGET := TestEm4
+# environment
+VSCODE_PID = 3061
+# environment
+ 
+DYLD_LIBRARY_PATH = /home/pietro/work/software/root-6.26.04/lib
+# environment
+G4ENSDFSTATEDATA = /home/pietro/work/software/geant4_data/G4ENSDFSTATE2.3
+# variable set hash-table stats:
+# Load=138/1024=13%, Rehash=0, Collisions=14/165=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 30933695): 15 files, no impossibilities so far.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+setup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+all: lib bin
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: setup clean_setup all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean_setup:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+lib:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+../../../../config/architecture.gmk:
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has not been done.
+#  Last modified 2021-11-19 08:25:39
+#  File has not been updated.
+
+# Not a target:
+../../../../config/binmake.gmk:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/29=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 282 B / avg = 10 B
+# current buf: size = 8162 B / used = 282 B / count = 27 / avg = 10 B
+
+# strcache performance: lookups = 37 / hit rate = 27%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=2/37=5%
+# Finished Make data base on Mon Aug  1 13:52:23 2022
+
+ 
